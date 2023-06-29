@@ -1,0 +1,11 @@
+name: VAE
+channels:
+  - pytorch-nightly
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - mamba
+  - pytorch=2.1.0
+  - pytorch-cuda=12.1
+  - torchinfo=^1.7.1
